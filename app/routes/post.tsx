@@ -10,6 +10,7 @@ export async function loader({ params }: Route.LoaderArgs) {
 
   try {
     markdown = await readFile(
+      //TODO prob change it, might be operating system issues
       new URL(`../../posts/${id}.md`, import.meta.url),
       "utf8",
     );

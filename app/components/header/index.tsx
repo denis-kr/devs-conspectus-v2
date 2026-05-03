@@ -2,15 +2,17 @@ import { Link, NavLink } from "react-router";
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon, CpuChipIcon } from "@heroicons/react/24/outline";
+import { containerClasses } from "../../utils/styling";
+import cx from "classnames";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900">
+    <header className={cx(containerClasses, "my-5")}>
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
           <CpuChipIcon className="h-8 w-auto text-white" />

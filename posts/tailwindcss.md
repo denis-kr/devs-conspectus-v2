@@ -1,7 +1,12 @@
 ---
-title: "My React Post"
-date: "2024-05-20"
-tags: ["react", "markdown", "json"]
+title: "Tailwind CSS"
+id: "tailwindcss"
+description: "mply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to m"
+date: "2026-May-02"
+tags: ["tailwindcss"]
+author: "Denis K"
+authorRole: "Software Engineer"
+authorImg: "https://dummyimage.com/400x400/000/fff"
 ---
 
 # Tailwind CSS Quick Notes
