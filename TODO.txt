@@ -1,7 +1,8 @@
 1. make styling consistent
-2. Add lint-staged and husky?
 3. Add comments/documentation everywhere
-4. Add search
 5. Implement pagination when too much articles
 6. Add filter by tags
-7. Add testing, unit/integration/e2e
+7. Add testing, unit/integration/e2e, 
+7b. vitest for unit tests, cypress for everything else
+
+8. Fix the markdown issues, figure out what I should use?

@@ -9,7 +9,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className={cx(containerClasses, "my-5")}>
+    <header className={cx(containerClasses, "my-2 sm:my-5")}>
       <nav
         aria-label="Global"
         className="mx-auto flex items-center justify-between p-6 lg:px-8"
